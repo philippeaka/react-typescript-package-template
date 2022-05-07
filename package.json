@@ -1,0 +1,11 @@
+{
+  "name": "react-typescript-package-template",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Philippe Aka <hello@philippeaka.com>",
+  "license": "MIT",
+  "description": "Add the description of your package",
+  "keywords": ["react","typescript","keywords"],
+  "homepage": "hhttps://github.com/philippeaka",
+  "repository": "https://github.com/philippeaka",
+}
