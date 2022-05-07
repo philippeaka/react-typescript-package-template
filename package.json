@@ -1,11 +1,19 @@
 {
   "name": "react-typescript-package-template",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "dist/react-typescript-package-template.cjs.js",
+  "module": "dist/react-typescript-package-template.esm.js",
   "author": "Philippe Aka <hello@philippeaka.com>",
   "license": "MIT",
   "description": "Add the description of your package",
   "keywords": ["react","typescript","keywords"],
   "homepage": "hhttps://github.com/philippeaka",
   "repository": "https://github.com/philippeaka",
+  "scripts": {
+    "build": "preconstruct build",
+    "watch": "preconstruct watch"
+  },
+  "devDependencies": {
+    "@preconstruct/cli": "^2.1.5"
+  }
 }
