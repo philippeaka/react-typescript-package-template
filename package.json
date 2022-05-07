@@ -15,7 +15,8 @@
   "repository": "https://github.com/philippeaka",
   "scripts": {
     "build": "preconstruct build",
-    "watch": "preconstruct watch"
+    "watch": "preconstruct watch",
+    "dev": "preconstruct dev"
   },
   "peerDependencies": {
     "react": "16.x || 17.x"
