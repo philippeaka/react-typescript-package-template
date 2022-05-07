@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "project": "./tsconfig.json",
+    "declaration": true,
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "include": ["./src/**/*"],
+}
