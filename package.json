@@ -16,7 +16,14 @@
   "scripts": {
     "build": "preconstruct build",
     "watch": "preconstruct watch",
-    "dev": "preconstruct dev"
+    "dev": "preconstruct dev",
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-jsdom",
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest-setup.ts"
+    ]
   },
   "peerDependencies": {
     "react": "16.x || 17.x"
@@ -28,8 +35,16 @@
     "@babel/preset-react": "^7.16.7",
     "@babel/preset-typescript": "^7.16.7",
     "@preconstruct/cli": "^2.1.5",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/react-hooks": "^8.0.0",
+    "@testing-library/user-event": "^14.1.1",
+    "@types/jest": "^27.5.0",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.3",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "typescript": "^4.6.4"
