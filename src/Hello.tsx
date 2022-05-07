@@ -4,6 +4,10 @@ interface Props {
   text?: string
 }
 
-export const Hello: React.FC<Props> = ({ text }) => {
-  return <div>{text}</div>
+const defaultProps = {
+  text: 'Hello',
 }
+
+export const Hello: React.FC<Props> = ({ text }) => <div>{text}</div>
+
+Hello.defaultProps = defaultProps
