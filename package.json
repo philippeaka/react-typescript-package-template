@@ -15,9 +15,10 @@
   "repository": "https://github.com/philippeaka",
   "scripts": {
     "build": "preconstruct build",
-    "watch": "preconstruct watch",
     "dev": "preconstruct dev",
-    "test": "jest"
+    "lint": "eslint ./src --ext .ts,.tsx",
+    "test": "jest",
+    "watch": "preconstruct watch"
   },
   "jest": {
     "testEnvironment": "jest-environment-jsdom",
@@ -42,9 +43,18 @@
     "@types/jest": "^27.5.0",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
     "babel-jest": "^28.1.0",
+    "eslint": "^8.15.0",
+    "eslint-plugin-jest": "^26.1.5",
+    "eslint-plugin-jest-dom": "^4.0.1",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0",
     "jest": "^28.1.0",
     "jest-environment-jsdom": "^28.1.0",
+    "prettier": "^2.6.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "typescript": "^4.6.4"
