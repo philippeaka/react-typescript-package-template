@@ -1,6 +1,7 @@
 import React from 'react'
-import { Hello } from './Hello'
 import { render, screen } from '@testing-library/react'
+
+import { Hello } from './Hello'
 
 test("renders 'Hello World'", () => {
   render(<Hello text="Hello World" />)
