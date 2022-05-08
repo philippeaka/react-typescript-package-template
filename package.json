@@ -17,6 +17,7 @@
     "build": "preconstruct build",
     "dev": "preconstruct dev",
     "lint": "eslint ./src --ext .ts,.tsx",
+    "release": "changeset publish",
     "test": "jest",
     "watch": "preconstruct watch"
   },
